@@ -40,9 +40,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            ghcr.io/${{ github.repository_owner }}/hugws:latest
-          labels: |
+          tags: 
+            ghcr.io/${{ github.repository_owner }}/123456:latest
+          labels: 
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
             org.opencontainers.image.licenses=MIT
